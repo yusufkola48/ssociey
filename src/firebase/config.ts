@@ -4,13 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyClsnT-an9eDXT4CVNXKSWdoJJjiB0giMo",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "games-ssocieyt-1ac1b.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "games-ssocieyt-1ac1b",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "games-ssocieyt-1ac1b.appspot.com",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "778559098767",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:778559098767:web:9f2580ff0b1767d69e45fa",
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-4Q3DQC416G"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "",
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || ""
 };
 
 // Initialize Firebase
